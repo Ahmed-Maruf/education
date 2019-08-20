@@ -1,0 +1,38 @@
+/* font-family: 'Dosis', sans-serif; */
+
+/* font-family: 'Sniglet', cursive; */
+
+*,body{
+    font-family: 'Dosis', sans-serif;
+    color: #333333;
+}
+
+/*
+ * ──────────────────────────────────────────────────────────────── I ──────────
+ *   :::::: H E A D E R   S T A R T : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────────────────
+ */
+
+header{
+    background-color: #ffd338;
+}
+.menu{
+
+}
+
+.menu ul li{
+    padding: 0 20px;
+    transition: .5s;
+    border-radius: 15px;
+}
+.menu ul li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.8px;
+}
+
+.menu ul li:hover{
+    background-color: #f05c5c;
+}
